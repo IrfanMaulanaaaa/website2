@@ -1,0 +1,54 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+.aboutme{
+    min-height: 100vh;
+}
+.education{
+    min-height: 50vh;
+}
+.skill{
+    min-height: 100vh;
+}
+.wrapper img{
+    width: 50;
+    
+}
+.wrapper li{
+    display: inline;
+}
+.certif{
+    min-height: 100vh;
+}
+.certif-wrapper img{
+    width: 500;
+    padding: 15;
+    filter: drop-shadow(5px 5px 10px #000000);
+    max-width: 100%  
+}
+.certif img:hover{
+    transform :scale(1.2);
+    z-index: 3;
+    transition: .3s;
+}
+#java{
+    height: 150;
+}
+#python{
+    height: 150;
+}
+#mysql{
+    height: 150;
+}
+.contact{
+    min-height: 105vh;
+    color: #fff;;
+    background-image: url("assets/src/gifff.gif");
+    padding-top: 100;
+    
+}
+.contact li{
+    display: inline;
+    padding: 5px;
+}
